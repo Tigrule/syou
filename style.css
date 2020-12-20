@@ -1,0 +1,42 @@
+body {
+    background: radial-gradient(circle at left 10px, #c0c0c0, #c0c0c0 500px, #ffffff);
+    height: 1000px;
+    color: #111;
+}
+
+header {
+    background: #c0c0c0;
+}
+
+header .logo {
+    width: 200px;
+}
+header img {
+    width: 100%;
+}
+
+main {
+    padding: 10px;
+    /*width: 1200px;*/
+    margin: 0 auto;
+}
+.welcome {
+    text-align: center
+}
+ul ul {
+    padding-left: 0;
+}
+
+ul ul li {
+    list-style-position: inside;
+}
+
+a:link {
+    color: #820000;
+}
+
+.left {
+    width: 300px;
+    border: 1px solid black;
+}
+
