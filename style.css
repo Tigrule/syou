@@ -35,7 +35,8 @@ a:link {
     color: #820000;
 }
 
-.left {
+#left {
+    float: right;
     width: 300px;
     border: 1px solid black;
 }
