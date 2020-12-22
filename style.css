@@ -1,18 +1,18 @@
 body {
-    background: radial-gradient(circle at left 10px, #c0c0c0, #c0c0c0 500px, #ffffff);
+    background: radial-gradient(circle at left 10px, #c0c0c0, #0d0202 500px, #ffffff);
     height: 1000px;
-    color: #111;
+    color: #b3b3b3;
 }
 
 header {
-    background: #c0c0c0;
+    background: #424242;
 }
 
 header .logo {
     width: 200px;
 }
 
-header .wrap {
+header .wrap-flex {
     display: flex;
 }
 
@@ -46,12 +46,13 @@ ul ul li {
     float: right;
     width: 300px;
     border: 1px solid black;
+    color: #1f1f1f;
 }
 
 header img:hover {
     transform: rotate(-3deg);
 }
-main .wrap {
+main .wrap-flex {
     padding-left: 55px;
     display: flex;
     justify-content: space-between;
@@ -109,4 +110,5 @@ main .wrap {
     display: inline-block;
     width: 30%;
     padding: 5px 10px;
+    background: #616161;
 }

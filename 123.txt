@@ -6,3 +6,7 @@ project
 #7e0000
 #bbbbbb
 #b9b0bb
+хедер #424242
+буквы #b3b3b3
+#0d0202 500px
+interesting #616161
