@@ -11,6 +11,9 @@ header {
 header .logo {
     width: 200px;
 }
+header .wrap {
+    display: flex;
+}
 header img {
     width: 100%;
 }
@@ -39,5 +42,9 @@ a:link {
     float: right;
     width: 300px;
     border: 1px solid black;
+}
+
+header img:hover {
+    transform: rotate(-3deg);
 }
 
