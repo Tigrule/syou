@@ -11,9 +11,11 @@ header {
 header .logo {
     width: 200px;
 }
+
 header .wrap {
     display: flex;
 }
+
 header img {
     width: 100%;
 }
@@ -23,9 +25,11 @@ main {
     /*width: 1200px;*/
     margin: 0 auto;
 }
+
 .welcome {
     text-align: center
 }
+
 ul ul {
     padding-left: 0;
 }
@@ -34,7 +38,7 @@ ul ul li {
     list-style-position: inside;
 }
 
-a:link {
+#left a:link {
     color: #820000;
 }
 
@@ -48,3 +52,50 @@ header img:hover {
     transform: rotate(-3deg);
 }
 
+.center {
+    padding-left: 55px;
+}
+
+.post {
+    width: 50%;
+    background: #bbbbbb22;
+    padding: 5px 10px;
+}
+
+.roll {
+    left: -250px;
+    top: 150px;
+    background: #71709d;
+    position: fixed;
+    width: 300px;
+    height: 600px;
+    transition-duration: 250ms;
+}
+
+.roll:hover {
+    left: 0;
+}
+
+.roll ul {
+    padding-top: 20px;
+}
+
+.roll-li {
+    margin: 5px;
+    font-size: 20px;
+    font-family: Georgia, sans-serif;
+}
+
+.roll-li a {
+    color: #12405D;
+}
+
+.roll-footer {
+    width: 200px;
+    height: 20px;
+    background: yellow;
+}
+
+.roll-footer:hover {
+    height: 400px;
+}
